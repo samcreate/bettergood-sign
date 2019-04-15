@@ -22,6 +22,7 @@ if automationhat.is_automation_hat():
 def buzz_lights():
     print("Light Buzz begins")
     buzz.play()
+    time.sleep(0.2)
     automationhat.relay.one.toggle()
     time.sleep(0.01)
     automationhat.relay.one.toggle()
@@ -67,12 +68,11 @@ def buzz_lights():
     automationhat.relay.one.toggle()
     time.sleep(0.01)
     automationhat.relay.one.toggle()
-    
+
     time.sleep(0.5)
     automationhat.relay.one.toggle()
-    time.sleep(0.5)
+    time.sleep(0.1)
     automationhat.relay.one.toggle()
-    time.sleep(0.5)
     print("Light Buzz ends")
 
 

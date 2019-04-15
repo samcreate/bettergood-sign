@@ -8,7 +8,7 @@ import automationhat
 
 mixer.init()
 
-buzz = mixer.Sound('buzz.mp3')
+buzz = mixer.Sound('buzz.wav')
 
 if automationhat.is_automation_hat():
     automationhat.light.power.write(1)

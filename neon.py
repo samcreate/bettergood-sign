@@ -24,7 +24,7 @@ def buzz_lights():
     # play sound
     buzz.play()
     # wait for audio to get to where it's making sound
-    time.sleep(0.098)
+    time.sleep(0.4)
 
     # 12 toggles @ 0.0239
     automationhat.relay.one.toggle()
@@ -72,34 +72,10 @@ def buzz_lights():
     # finish last of the mid sequence
     automationhat.relay.one.toggle()
     time.sleep(0.23)
-    automationhat.relay.one.toggle()
-    time.sleep(0.23)
+   
 
-    # end of all 12 @ 0.036
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
-    automationhat.relay.one.toggle()
-    time.sleep(0.036)
+ 
+    
 
     print("Light Buzz ends")
 

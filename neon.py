@@ -57,8 +57,19 @@ def buzz_lights():
     time.sleep(0.23)
     automationhat.relay.one.toggle()
     time.sleep(0.23)
+    
+    # 5 quickies at 0.046
     automationhat.relay.one.toggle()
-    time.sleep(0.23)
+    time.sleep(0.046)
+    automationhat.relay.one.toggle()
+    time.sleep(0.046)
+    automationhat.relay.one.toggle()
+    time.sleep(0.046)
+    automationhat.relay.one.toggle()
+    time.sleep(0.046)
+    automationhat.relay.one.toggle()
+    time.sleep(0.046)
+    # finish last of the mid sequence
     automationhat.relay.one.toggle()
     time.sleep(0.23)
     automationhat.relay.one.toggle()

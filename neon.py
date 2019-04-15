@@ -10,7 +10,5 @@ if automationhat.is_automation_hat():
 
 while True:
     automationhat.relay.one.toggle()
-    if automationhat.is_automation_hat():
-        automationhat.relay.two.toggle()
-        automationhat.relay.three.toggle()
-    time.sleep(0.1)
+
+    time.sleep(0.9)

@@ -69,7 +69,7 @@ def buzz_lights():
     time.sleep(0.01)
     automationhat.relay.one.toggle()
 
-    time.sleep(0.5)
+    time.sleep(0.2)
     automationhat.relay.one.toggle()
     time.sleep(0.1)
     automationhat.relay.one.toggle()

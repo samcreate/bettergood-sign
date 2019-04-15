@@ -52,6 +52,18 @@ def buzz_lights():
     automationhat.relay.one.toggle()
     time.sleep(0.0239)
     
+    # 5 big toggles @ 0.23
+    automationhat.relay.one.toggle()
+    time.sleep(0.23)
+    automationhat.relay.one.toggle()
+    time.sleep(0.23)
+    automationhat.relay.one.toggle()
+    time.sleep(0.23)
+    automationhat.relay.one.toggle()
+    time.sleep(0.23)
+    automationhat.relay.one.toggle()
+    time.sleep(0.23)
+
     print("Light Buzz ends")
 
 

@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 from __future__ import absolute_import, print_function
-from pygame import mixer
-import time
-import automationhat
+
 from tweepy.streaming import StreamListener
+
 from tweepy import OAuthHandler
+
 from tweepy import Stream
+
+from pygame import mixer
+
+import time
+
+import automationhat
 
 
 # Go to http://apps.twitter.com and create an app.
@@ -17,6 +23,8 @@ consumer_secret="OcSrqC2pDGfeuEqSx47vTmtzKuhcxGNudw1caZeVof8G6WAhyK"
 # Create an access token under the the "Your access token" section
 access_token="19003041-amWGCdU217o0YRptsMcfGohphU2Cet0VxxeButUAo"
 access_token_secret="b8wEYmm6ppHXsAY9NKCpHmIB0DvVKNcZRYW6JQKcKEKHK"
+
+
 
 mixer.init()
 
@@ -114,6 +122,10 @@ def buzz_lights():
     time.sleep(0.036)
 
     print("Light Buzz ends")
+
+
+
+
 
 
 

@@ -93,6 +93,7 @@ def buzz_lights():
     automationhat.relay.one.toggle()
     time.sleep(0.23)
 
+buzz_lights()
 
 class StdOutListener(StreamListener):
     """ A listener handles tweets that are received from the stream.

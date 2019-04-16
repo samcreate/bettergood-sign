@@ -28,7 +28,7 @@ access_token_secret="b8wEYmm6ppHXsAY9NKCpHmIB0DvVKNcZRYW6JQKcKEKHK"
 
 mixer.init()
 
-buzz = mixer.Sound('buzz.wav')
+buzz = mixer.Sound('/home/pi/bettergood/buzz.wav')
 
 if automationhat.is_automation_hat():
     automationhat.light.power.write(1)

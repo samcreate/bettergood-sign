@@ -33,14 +33,10 @@ buzz = mixer.Sound('/home/pi/bettergood/buzz.wav')
 if automationhat.is_automation_hat():
     automationhat.light.power.write(1)
 
-# while True:
-#     automationhat.relay.one.toggle()
-    
-#     time.sleep(0.9)
 
 
 def buzz_lights():
-    print("Light Buzz begins")
+    # print("Light Buzz begins")
     # play sound
     buzz.play()
     # wait for audio to get to where it's making sound
